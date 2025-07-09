@@ -1,0 +1,11 @@
+.red-button{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+.button{
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 30%;
+}
