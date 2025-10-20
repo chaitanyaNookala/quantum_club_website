@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events and Classes Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <button onclick="console.log('Button was clicked'); alert('hello!')"> click me </button>
+    <!-- here the **onclick** is an attribute of the button tag
+         with this we can insert some function for the button or the attributes when the button is clicked-->
+
+    <button ondblclick="console.log('Button was clicked 2 times')"> 
+        click me here 2 times
+    </button>
+    <!-- here in this case the attribute or the console will only print
+        when the button is clicked 2 times in a row -- this is how you handle the double click of the button event -->
+
+
+    <button id="btn1"> button1 </button>
+    <!--  here this button's function is writtien in the script.js written in form of event -->
+
+
+
+
+    <!-- <div class="box">
+        this is a box 
+    </div> -->
+    <!-- lets say this is a box and when we hover on it with the mouse the count increases and we can see this in the script.js -->
+
+
+
+
+
+
+
+
+    <script src="script-classes.js"></script>
+    <script src="https://kit.fontawesome.com/0616386674.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
